@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  --surface-muted: #f5f7fb;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--surface-muted);
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-header {
+  height: auto;
+  padding: 20px 32px;
+  background: var(--surface-muted);
+}
+
+.app-header h3 {
+  margin: 0;
+}
+
+.app-content {
+  padding: 0 32px 32px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.summary-icon {
+  font-size: 24px;
+}
